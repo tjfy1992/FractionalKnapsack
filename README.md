@@ -8,7 +8,7 @@ FileReader.py: The class of a file reader. The file reader reads from a txt file
 
 FractionalKnapsack.py: The implementation of fractional knapsack algorithm. The output format is:
 [(1.0, 5), (2.0, 3), (6.0, 4), (1.0, 2)]
-which means 1.0 unit of item 5, 2.0 units of item 3, 6.0 units of item 4 and 1.0 unit of item 2. Take page 5 of greedy method slides' example, this means 1.0 ml of 5, 2.0 ml of 3, 6.0 ml of 4 and 1.0 ml of 2.
+which means 1.0 unit of item 5, 2.0 units of item 3, 6.0 units of item 4 and 1.0 unit of item 2. 
 
 test_item.py: The unit test for Item.py.
 
@@ -40,8 +40,8 @@ id	weight	benefit
 
 The above programs are written within PyCharm for Windows, with Python's version 3.7.4 x64, and pytest-5.1.2.
 To run the programs, in PyCharm, 
-click File ->  open -> select the project named Knapsack;
-At the terminal, gets into the current directory, and run "pytest".
+click File ->  open -> select the project named "FractionalKnapsack-master";
+At the terminal, get into the current directory, and run "pytest".
 
 In test_fractionalKnapsack.py, there are 6 tests on the fractional knapsack: 
 test_knapsack_01(), test_knapsack_02() and test_knapsack_03() take test01.txt as input;
