@@ -3,12 +3,17 @@ The python implementation of the greedy algorithm that solves fractional knapsac
 
 Item.py : The class of item to be put into the knapsack.
 PriorityQueue.py: The implementation of a priority queue by heapq. Each element in the priority queue is an item. Each item has a priority which equals to its value, aka benefit/weight(keep 3 decimal places for fractional part). In the priority queue, the item with higher priority gets out first. Each item also has a unique id, so that when the priorities of two item are the same, the item with larger id gets out first.
+
 FileReader.py: The class of a file reader. The file reader reads from a txt file, and initialize the list of Items with the data it reads.
+
 FractionalKnapsack.py: The implementation of fractional knapsack algorithm. The output format is:
 [(1.0, 5), (2.0, 3), (6.0, 4), (1.0, 2)]
 which means 1.0 unit of item 5, 2.0 units of item 3, 6.0 units of item 4 and 1.0 unit of item 2. Take page 5 of greedy method slides' example, this means 1.0 ml of 5, 2.0 ml of 3, 6.0 ml of 4 and 1.0 ml of 2.
+
 test_item.py: The unit test for Item.py.
+
 test_priorityQueue.py: The unit test for PriorityQueue.py
+
 test_fractionalKnapsack.py: The unit test for the work flow of fractional knapsack, including the file reader.
 
 In FractionalKnapsack.py, in the constructor function, there is a statement which receives user input as the max weight of the knapsack. The way to take input the item number, weight and benefit is by reading a file whose path is specified by the user. The function is written in FileReader.py: in function read_file, the user needs to input the path of the input file. In test_fractionalKnapsack.py, I mocked the built-in input function so that the values(weight and input file path) can be assigned within the test functions. A tear-down function is written in the end to restore the built-in function. The input files are as following:
