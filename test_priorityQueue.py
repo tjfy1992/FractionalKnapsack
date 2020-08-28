@@ -1,8 +1,5 @@
 """
 Date: 09/24/2019
-Class: CS5310
-Assignment: Fractional Knapsack
-Author(s): Zhongqiu Gao
 test script for priority queue
 """
 
