@@ -20,21 +20,34 @@ In FractionalKnapsack.py, in the constructor function, there is a statement whic
 
 test01.txt: a text file showing the number of items and the weight and benifit of each item. The meaning of each line is: (weight, benefit). The number of lines is the number of items. Each line number represents the item's id.
 Here are the information provided by test01.txt:
+
 id	weight	benefit
-1	4	12
+
+1   4	      12
+
 2	8	32
+
 3	2	40
+
 4	6	30
+
 5	1	50
 
 test02.txt: another text file with same format and different data.
 Here are the information provided by test02.txt:
+
 id	weight	benefit
+
 1	4	16
+
 2	8	24
+
 3	2	12
+
 4	6	36
+
 5	1	50
+
 6	3	24
 
 
